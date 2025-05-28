@@ -70,7 +70,7 @@ export default function Component() {
   const [showTutorial, setShowTutorial] = useState(false)
   const [showWelcome, setShowWelcome] = useState(false)
   const [currentStep, setCurrentStep] = useState(0)
-  const [language, setLanguage] = useState<Language>("es")
+  const [language, setLanguage] = useState<Language>("en")
 
   // Translations
   const translations = {
